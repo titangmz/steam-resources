@@ -1,7 +1,10 @@
 {
-  "name": "steam-resources",
+  "name": "@titangmz/steam-resources",
   "private": true,
-  "repository": "titangmz/steam-resources",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titangmz/steam-resources.git"
+  },
   "version": "1.0.0",
   "description": "Steam resources for Node.js",
   "scripts": {
@@ -20,5 +23,10 @@
   "license": "MIT",
   "devDependencies": {
     "standard-version": "^9.3.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/titangmz/steam-resources/issues"
+  },
+  "homepage": "https://github.com/titangmz/steam-resources#readme",
+  "main": "index.js"
 }
