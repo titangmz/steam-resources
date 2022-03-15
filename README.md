@@ -57,3 +57,7 @@ var chatRoomInfo = new Steam.Internal.MsgClientChatRoomInfo({
 var buf = chatRoomInfo.toBuffer();
 var chatRoomInfo2 = Steam.Internal.MsgClientChatRoomInfo.decode(buf);
 ```
+
+
+## Credits
+https://github.com/seishun/node-steam-resources
