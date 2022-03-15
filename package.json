@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/titangmz/steam-resources.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Steam resources for Node.js",
   "scripts": {
     "fetch": "svn checkout https://github.com/SteamDatabase/Protobufs/trunk protobufs && svn checkout https://github.com/SteamRE/SteamKit/trunk/Resources/ProtobufGen protobuf_gen && svn checkout https://github.com/SteamRE/SteamKit/trunk/Resources/SteamLanguage steam_language",
