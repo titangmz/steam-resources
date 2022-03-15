@@ -1,6 +1,5 @@
 {
   "name": "@titangmz/steam-resources",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/titangmz/steam-resources.git"
