@@ -4,10 +4,7 @@ This is a node wrapper around Steam resources ([Protobufs](https://github.com/St
 
 # Installation
 
-1. Run `npm install seishun/node-steam-resources`. It fetches the Steam resources and requires `svn`.
-2. If you're going to publish your module, add `steam-resources` to `bundledDependencies` in your `package.json`, since you want to publish with the resources bundled. Note that `npm publish` will bundle the dependencies of `steam-resources` as well.
-
-If you ever need to update the resources, just run `npm install seishun/node-steam-resources` again.
+Run `npm install @titangmz/steam-resources`.
 
 # Usage
 
