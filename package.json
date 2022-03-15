@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Steam resources for Node.js",
   "scripts": {
-    "fetch": "svn checkout https://github.com/SteamDatabase/Protobufs/trunk protobufs && svn checkout https://github.com/SteamRE/SteamKit/trunk/Resources/ProtobufGen protobuf_gen && svn checkout https://github.com/SteamRE/SteamKit/trunk/Resources/SteamLanguage steam_language"
+    "fetch": "svn checkout https://github.com/SteamDatabase/Protobufs/trunk protobufs && svn checkout https://github.com/SteamRE/SteamKit/trunk/Resources/ProtobufGen protobuf_gen && svn checkout https://github.com/SteamRE/SteamKit/trunk/Resources/SteamLanguage steam_language",
+    "release": "standard-version"
   },
   "dependencies": {
     "bytebuffer": "^5.0",
@@ -18,5 +19,8 @@
     "steam"
   ],
   "author": "Pedram Parsa <titangmz@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
