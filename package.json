@@ -1,5 +1,7 @@
 {
   "name": "steam-resources",
+  "private": true,
+  "repository": "titangmz/steam-resources",
   "version": "1.0.0",
   "description": "Steam resources for Node.js",
   "scripts": {
@@ -10,10 +12,6 @@
     "bytebuffer": "^5.0",
     "csv-parse": "^4.0.1",
     "protobufjs": "^4.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/titangmz/steam-resources"
   },
   "keywords": [
     "steam"
